@@ -78,17 +78,11 @@ namespace eolinkerToWord
                     var tableNew = table.Clone();
                     document.Sections[0].Tables.Add(tableNew);
 
-                    //表格样式，设置了但是没有起作用，原因未知；
+                    //表格样式，设置了但是没有起作用，原因未知；（支持MS Word 不支持WPS）
                     tableNew.TableFormat.Borders.LineWidth = 1.0F;
-                    tableNew.TableFormat.Borders.BorderType = BorderStyle.Double;
+                    tableNew.TableFormat.Borders.BorderType = BorderStyle.Hairline;
                     tableNew.TableFormat.Borders.Color = Color.Black;
-
-                    var tableNew1 = document.Sections[0].Tables[apiIndex - 1];
-                    tableNew1.TableFormat.Borders.Horizontal.BorderType = BorderStyle.Hairline;
-                    tableNew1.TableFormat.Borders.Horizontal.Color = Color.Orange;
-                    tableNew1.TableFormat.Borders.Vertical.BorderType = BorderStyle.Hairline;
-                    tableNew1.TableFormat.Borders.Vertical.Color = Color.Orange;
-
+                    
                     //向表格中添加数据
 
                     //请求类型
