@@ -1,0 +1,717 @@
+{
+	"projectInfo": {
+		"projectID": 11,
+		"projectType": 0,
+		"projectName": "\u53ef\u542c-NET-BOSS",
+		"projectUpdateTime": "2018-08-17 15:44:07",
+		"projectVersion": "1.0"
+	},
+	"apiGroupList": [{
+			"groupID": 15,
+			"groupName": "\u6807\u7b7e\u76f8\u5173\u63a5\u53e3",
+			"projectID": 11,
+			"parentGroupID": 0,
+			"isChild": 0,
+			"apiList": [{
+					"baseInfo": {
+						"apiName": "\u540e\u53f0-\u6807\u7b7e\u6dfb\u52a0\u4fee\u6539",
+						"apiURI": "CloudTag\/TagAddOrUpdate",
+						"apiProtocol": 0,
+						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"\u8bf7\u6c42\u6210\u529f\",\n    \"data\":1\n}",
+						"apiFailureMock": "",
+						"apiRequestType": 0,
+						"apiStatus": 0,
+						"starred": 0,
+						"apiNoteType": 0,
+						"apiNoteRaw": "",
+						"apiNote": "",
+						"apiRequestParamType": 0,
+						"apiRequestRaw": "",
+						"apiUpdateTime": "2018-05-08 11:00:29"
+					},
+					"headerInfo": [{
+							"headerName": "token",
+							"headerValue": "1545712fdc97469dbe0899213949f8d5",
+							"$$hashKey": "object:66"
+						}
+					],
+					"requestInfo": [{
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u4e3b\u952e 0.\u6dfb\u52a0   \u5176\u4ed6\u5c31\u662f\u4fee\u6539",
+							"paramKey": "tagId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:212"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:192",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u6807\u7b7e",
+							"paramKey": "tagName",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u6d4b\u8bd5\u6807\u7b7e",
+									"valueDescription": "",
+									"$$hashKey": "object:234"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:214",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u680f\u76eeId   0.\u97f3\u9891  1.\u5934\u6761   2.\u542c\u4e66   3.\u58f0\u5ea6",
+							"paramKey": "columnId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:322"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:302",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u7b80\u62fc",
+							"paramKey": "initial",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "CSBQ",
+									"valueDescription": "",
+									"$$hashKey": "object:1690"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1670",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "tagName+initial",
+							"paramKey": "searchColumn",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "CSBQ\u6d4b\u8bd5\u6807\u7b7e",
+									"valueDescription": "",
+									"$$hashKey": "object:3208"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1692",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u6dfb\u52a0\u4eba",
+							"paramKey": "manager",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u5c0f\u98ce",
+									"valueDescription": "",
+									"$$hashKey": "object:3206"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1714",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "0.\u6b63\u5e38 1.\u7981\u7528",
+							"paramKey": "tagStatus",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:3210"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1736",
+							"moreParam": true
+						}
+					],
+					"resultInfo": [{
+							"paramNotNull": "0",
+							"paramName": "",
+							"paramKey": "code",
+							"paramValueList": [{
+									"value": 100,
+									"valueDescription": "",
+									"$$hashKey": "object:48654"
+								}
+							],
+							"$$hashKey": "object:48645"
+						}, {
+							"paramNotNull": "0",
+							"paramName": "",
+							"paramKey": "msg",
+							"paramValueList": [{
+									"value": "\u8bf7\u6c42\u6210\u529f",
+									"valueDescription": "",
+									"$$hashKey": "object:48656"
+								}
+							],
+							"$$hashKey": "object:48646"
+						}, {
+							"paramNotNull": "0",
+							"paramName": "\u66f4\u65b0\u7684\u5bf9\u8c61ID\uff0c0\u8868\u793a\u66f4\u65b0\u5931\u8d25",
+							"paramKey": "data",
+							"paramValueList": [{
+									"value": 1,
+									"valueDescription": "",
+									"$$hashKey": "object:48658"
+								}
+							],
+							"$$hashKey": "object:48647"
+						}
+					]
+				}, {
+					"baseInfo": {
+						"apiName": "\u540e\u53f0-\u542c\u4e66\/\u58f0\u5ea6\u6dfb\u52a0\u548c\u4fee\u6539\u63a5\u53e3",
+						"apiURI": "CloudListenVoice\/ListenVoiceAddOrUpdate",
+						"apiProtocol": 0,
+						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"\u8bf7\u6c42\u6210\u529f\",\n    \"data\":1\n}",
+						"apiFailureMock": "",
+						"apiRequestType": 0,
+						"apiStatus": 0,
+						"starred": 0,
+						"apiNoteType": 0,
+						"apiNoteRaw": "",
+						"apiNote": "",
+						"apiRequestParamType": 0,
+						"apiRequestRaw": "",
+						"apiUpdateTime": "2018-05-08 10:59:51"
+					},
+					"headerInfo": [{
+							"headerName": "token",
+							"headerValue": "1545712fdc97469dbe0899213949f8d5",
+							"$$hashKey": "object:66"
+						}
+					],
+					"requestInfo": [{
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u4e3b\u952e 0.\u6dfb\u52a0   \u5176\u4ed6\u5c31\u662f\u4fee\u6539",
+							"paramKey": "listenId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:212"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:192",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u540d\u79f0",
+							"paramKey": "name",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u542c\u4e66",
+									"valueDescription": "",
+									"$$hashKey": "object:234"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:214",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u4e3b\u64ad\u4fe1\u606f  \u58f0\u5ea6\u4f200\uff0c\u542c\u4e66\u5176\u4ed6",
+							"paramKey": "anchorId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:322"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:302",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u680f\u76eeId 2.\u542c\u4e66  3.\u58f0\u5ea6",
+							"paramKey": "catId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "2",
+									"valueDescription": "",
+									"$$hashKey": "object:1690"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1670",
+							"moreParam": true
+						}, {
+							"paramNotNull": "1",
+							"paramType": "0",
+							"paramName": "\u7b80\u4ecb",
+							"paramKey": "summary",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u7b80\u4ecb",
+									"valueDescription": "",
+									"$$hashKey": "object:3208"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1692",
+							"moreParam": true
+						}, {
+							"paramNotNull": "1",
+							"paramType": "0",
+							"paramName": "\u5c01\u9762\u56fe",
+							"paramKey": "thumb",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u5c0f\u98ce.jpg",
+									"valueDescription": "",
+									"$$hashKey": "object:3206"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1714",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u63cf\u8ff0",
+							"paramKey": "description",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u63cf\u8ff0",
+									"valueDescription": "",
+									"$$hashKey": "object:3210"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:1736",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "5",
+							"paramName": "\u4ef7\u683c",
+							"paramKey": "price",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:503"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:483",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u6392\u5e8f\u503c",
+							"paramKey": "sortNo",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:525"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:505",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u53d1\u5e03\u72b6\u6001  0.\u53d1\u5e03   1.\u672a\u53d1\u5e03(\u9ed8\u8ba4)  2.\u5220\u9664",
+							"paramKey": "releaseStatus",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:547"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:527",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u662f\u5426\u514d\u8d39 0\u6536\u8d39  1\u514d\u8d39",
+							"paramKey": "isFree",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:569"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:549",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "0.\u65e0\u4fc3\u9500(\u9ed8\u8ba4)\u3010\u6b64\u7c7b\u578b\u4e0d\u9700\u8981\u8981\u5173\u8054\u4fc3\u9500\u8868\u3011  1.\u81ea\u5b9a\u4e49\u4f18\u60e0\u4ef7\u683c  2.\u9650\u514d",
+							"paramKey": "promotionType",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:591"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:571",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "5",
+							"paramName": "\u81ea\u5b9a\u4e49\u4ef7\u683c",
+							"paramKey": "selfPrice",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:613"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:593",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u5f00\u59cb\u65f6\u95f4",
+							"paramKey": "startTime",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "1504517340",
+									"valueDescription": "",
+									"$$hashKey": "object:635"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:615",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u7ed3\u675f\u65f6\u95f4",
+							"paramKey": "endTime",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "1504517340",
+									"valueDescription": "",
+									"$$hashKey": "object:657"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:637",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u8ba2\u9605\/\u8d2d\u4e70\u91cf",
+							"paramKey": "orderNum",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:679"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:659",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "3",
+							"paramName": "\u8bfb\u53d6Cloud_OrderCycle\u4e3b\u952e   \u5f53\u662f\u542c\u4e66\u65f6\u6b64\u503c\u4e3a0",
+							"paramKey": "orderTime",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "0",
+									"valueDescription": "",
+									"$$hashKey": "object:701"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:681",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u82f9\u679c\u5185\u8d2dID   \u58f0\u5ea6\u5185\u8d2dID  \u9488\u5bf9\u82f9\u679c\u5ba1\u6838",
+							"paramKey": "appleStoreId",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "sssss",
+									"valueDescription": "",
+									"$$hashKey": "object:723"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:703",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u63a8\u8350\u7406\u7531",
+							"paramKey": "recommReason",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u63a8\u8350\u7406\u7531",
+									"valueDescription": "",
+									"$$hashKey": "object:745"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:725",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u9002\u5b9c\u4eba\u7fa4",
+							"paramKey": "fixPeople",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u9002\u5b9c\u4eba\u7fa4",
+									"valueDescription": "",
+									"$$hashKey": "object:767"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:747",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u4f60\u5c06\u83b7\u5f97",
+							"paramKey": "youGet",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u4f60\u5c06\u83b7\u5f97",
+									"valueDescription": "",
+									"$$hashKey": "object:789"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:769",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u8d2d\u4e70\u987b\u77e5",
+							"paramKey": "purchaseNotes",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u8d2d\u4e70\u987b\u77e5",
+									"valueDescription": "",
+									"$$hashKey": "object:811"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:791",
+							"moreParam": true
+						}, {
+							"paramNotNull": "1",
+							"paramType": "0",
+							"paramName": "\u56fe\u4e66\u4f5c\u8005",
+							"paramKey": "bookAuthor",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u56fe\u4e66\u4f5c\u8005",
+									"valueDescription": "",
+									"$$hashKey": "object:833"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:813",
+							"moreParam": true
+						}, {
+							"paramNotNull": "1",
+							"paramType": "0",
+							"paramName": "\u51fa\u7248\u65b9",
+							"paramKey": "publishSide",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u51fa\u7248\u65b9",
+									"valueDescription": "",
+									"$$hashKey": "object:855"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:835",
+							"moreParam": true
+						}, {
+							"paramNotNull": "1",
+							"paramType": "0",
+							"paramName": "\u51fa\u7248\u65f6\u95f4",
+							"paramKey": "publishTime",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u51fa\u7248\u65f6\u95f4",
+									"valueDescription": "",
+									"$$hashKey": "object:877"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:857",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u56fe\u4e66\u7f16\u7801",
+							"paramKey": "bookCode",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u56fe\u4e66\u7f16\u7801",
+									"valueDescription": "",
+									"$$hashKey": "object:899"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:879",
+							"moreParam": true
+						}, {
+							"paramNotNull": "0",
+							"paramType": "0",
+							"paramName": "\u56fe\u4e66\u5b57\u6570",
+							"paramKey": "bookCount",
+							"paramValue": "",
+							"paramLimit": "",
+							"paramNote": "",
+							"paramValueList": [{
+									"value": "\u56fe\u4e66\u5b57\u6570",
+									"valueDescription": "",
+									"$$hashKey": "object:921"
+								}
+							],
+							"default": 0,
+							"$$hashKey": "object:901",
+							"moreParam": true
+						}
+					],
+					"resultInfo": [{
+							"paramNotNull": "0",
+							"paramName": "",
+							"paramKey": "code",
+							"paramValueList": [{
+									"value": 100,
+									"valueDescription": "",
+									"$$hashKey": "object:48130"
+								}
+							],
+							"$$hashKey": "object:48121"
+						}, {
+							"paramNotNull": "0",
+							"paramName": "",
+							"paramKey": "msg",
+							"paramValueList": [{
+									"value": "\u8bf7\u6c42\u6210\u529f",
+									"valueDescription": "",
+									"$$hashKey": "object:48132"
+								}
+							],
+							"$$hashKey": "object:48122"
+						}, {
+							"paramNotNull": "0",
+							"paramName": "\u66f4\u65b0\u7684\u5bf9\u8c61ID\uff0c0\u8868\u793a\u66f4\u65b0\u5931\u8d25",
+							"paramKey": "data",
+							"paramValueList": [{
+									"value": 1,
+									"valueDescription": "",
+									"$$hashKey": "object:48134"
+								}
+							],
+							"$$hashKey": "object:48123"
+						}
+					]
+				}
+			]
+		}
+	]
+}
