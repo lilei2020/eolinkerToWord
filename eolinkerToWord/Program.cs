@@ -13,36 +13,6 @@ namespace eolinkerToWord
 {
     class Program
     {
-        #region test
-        //static void Main(string[] args)
-        //{
-
-        //    //载入Word文档
-        //    Document document = new Document("./doc/API文档.docx");
-
-        //    foreach (ITable table in document.Sections[0].Tables)
-        //    {
-        //        var t = table;
-        //        //t.TableFormat.Borders.Horizontal.BorderType = BorderStyle.Hairline;
-        //        //t.TableFormat.Borders.Horizontal.Color = Color.Orange;
-        //        //t.TableFormat.Borders.Vertical.BorderType = BorderStyle.Hairline;
-        //        //t.TableFormat.Borders.Vertical.Color = Color.Orange;
-
-
-        //        Console.WriteLine("请求URL：" + t.Rows[1].Cells[1].Paragraphs[0].Text + "----" + t.TableFormat.Borders.Vertical.Color);
-        //        t.TableFormat.Borders.LineWidth = 2.0F;
-        //        t.TableFormat.Borders.BorderType = BorderStyle.Double;
-        //        t.TableFormat.Borders.Vertical.Color = Color.Black;
-        //        Console.WriteLine("请求URL：" + t.Rows[1].Cells[1].Paragraphs[0].Text + "----" + t.TableFormat.Borders.Vertical.Color);
-        //    }
-
-
-        //    Console.WriteLine("请求URL：" + document.Sections[0].Tables[3].Rows[1].Cells[1].Paragraphs[0].Text + "----" + document.Sections[0].Tables[3].TableFormat.Borders.Vertical.Color);
-        //    document.SaveToFile($"./doc/API文档---{DateTime.Now:yyyyMMddHHmmss}.docx", FileFormat.Docx);
-        //    Console.ReadKey();
-        //}
-        #endregion
-
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
