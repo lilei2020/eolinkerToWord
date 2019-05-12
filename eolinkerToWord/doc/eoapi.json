@@ -2,22 +2,24 @@
 	"projectInfo": {
 		"projectID": 11,
 		"projectType": 0,
-		"projectName": "\u53ef\u542c-NET-BOSS",
-		"projectUpdateTime": "2018-08-17 15:44:07",
+		"projectName": "可听-NET-BOSS",
+		"projectUpdateTime": "2019-03-08 13:50:36",
 		"projectVersion": "1.0"
 	},
-	"apiGroupList": [{
+	"apiGroupList": [
+		{
 			"groupID": 15,
-			"groupName": "\u6807\u7b7e\u76f8\u5173\u63a5\u53e3",
+			"groupName": "标签相关接口",
 			"projectID": 11,
 			"parentGroupID": 0,
 			"isChild": 0,
-			"apiList": [{
+			"apiList": [
+				{
 					"baseInfo": {
-						"apiName": "\u540e\u53f0-\u6807\u7b7e\u6dfb\u52a0\u4fee\u6539",
-						"apiURI": "CloudTag\/TagAddOrUpdate",
+						"apiName": "后台-标签添加修改",
+						"apiURI": "CloudTag/TagAddOrUpdate",
 						"apiProtocol": 0,
-						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"\u8bf7\u6c42\u6210\u529f\",\n    \"data\":1\n}",
+						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"请求成功\",\n    \"data\":1\n}",
 						"apiFailureMock": "",
 						"apiRequestType": 0,
 						"apiStatus": 0,
@@ -29,21 +31,24 @@
 						"apiRequestRaw": "",
 						"apiUpdateTime": "2018-05-08 11:00:29"
 					},
-					"headerInfo": [{
+					"headerInfo": [
+						{
 							"headerName": "token",
 							"headerValue": "1545712fdc97469dbe0899213949f8d5",
 							"$$hashKey": "object:66"
 						}
 					],
-					"requestInfo": [{
+					"requestInfo": [
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u4e3b\u952e 0.\u6dfb\u52a0   \u5176\u4ed6\u5c31\u662f\u4fee\u6539",
+							"paramName": "主键 0.添加   其他就是修改",
 							"paramKey": "tagId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:212"
@@ -52,16 +57,18 @@
 							"default": 0,
 							"$$hashKey": "object:192",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u6807\u7b7e",
+							"paramName": "标签",
 							"paramKey": "tagName",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u6d4b\u8bd5\u6807\u7b7e",
+							"paramValueList": [
+								{
+									"value": "测试标签",
 									"valueDescription": "",
 									"$$hashKey": "object:234"
 								}
@@ -69,15 +76,17 @@
 							"default": 0,
 							"$$hashKey": "object:214",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u680f\u76eeId   0.\u97f3\u9891  1.\u5934\u6761   2.\u542c\u4e66   3.\u58f0\u5ea6",
+							"paramName": "栏目Id   0.音频  1.头条   2.听书   3.声度",
 							"paramKey": "columnId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:322"
@@ -86,15 +95,17 @@
 							"default": 0,
 							"$$hashKey": "object:302",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u7b80\u62fc",
+							"paramName": "简拼",
 							"paramKey": "initial",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "CSBQ",
 									"valueDescription": "",
 									"$$hashKey": "object:1690"
@@ -103,7 +114,8 @@
 							"default": 0,
 							"$$hashKey": "object:1670",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
 							"paramName": "tagName+initial",
@@ -111,8 +123,9 @@
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "CSBQ\u6d4b\u8bd5\u6807\u7b7e",
+							"paramValueList": [
+								{
+									"value": "CSBQ测试标签",
 									"valueDescription": "",
 									"$$hashKey": "object:3208"
 								}
@@ -120,16 +133,18 @@
 							"default": 0,
 							"$$hashKey": "object:1692",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u6dfb\u52a0\u4eba",
+							"paramName": "添加人",
 							"paramKey": "manager",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u5c0f\u98ce",
+							"paramValueList": [
+								{
+									"value": "小风",
 									"valueDescription": "",
 									"$$hashKey": "object:3206"
 								}
@@ -137,15 +152,17 @@
 							"default": 0,
 							"$$hashKey": "object:1714",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "0.\u6b63\u5e38 1.\u7981\u7528",
+							"paramName": "0.正常 1.禁用",
 							"paramKey": "tagStatus",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:3210"
@@ -156,33 +173,39 @@
 							"moreParam": true
 						}
 					],
-					"resultInfo": [{
+					"resultInfo": [
+						{
 							"paramNotNull": "0",
 							"paramName": "",
 							"paramKey": "code",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": 100,
 									"valueDescription": "",
 									"$$hashKey": "object:48654"
 								}
 							],
 							"$$hashKey": "object:48645"
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramName": "",
 							"paramKey": "msg",
-							"paramValueList": [{
-									"value": "\u8bf7\u6c42\u6210\u529f",
+							"paramValueList": [
+								{
+									"value": "请求成功",
 									"valueDescription": "",
 									"$$hashKey": "object:48656"
 								}
 							],
 							"$$hashKey": "object:48646"
-						}, {
+						},
+						{
 							"paramNotNull": "0",
-							"paramName": "\u66f4\u65b0\u7684\u5bf9\u8c61ID\uff0c0\u8868\u793a\u66f4\u65b0\u5931\u8d25",
+							"paramName": "更新的对象ID，0表示更新失败",
 							"paramKey": "data",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": 1,
 									"valueDescription": "",
 									"$$hashKey": "object:48658"
@@ -191,12 +214,13 @@
 							"$$hashKey": "object:48647"
 						}
 					]
-				}, {
+				},
+				{
 					"baseInfo": {
-						"apiName": "\u540e\u53f0-\u542c\u4e66\/\u58f0\u5ea6\u6dfb\u52a0\u548c\u4fee\u6539\u63a5\u53e3",
-						"apiURI": "CloudListenVoice\/ListenVoiceAddOrUpdate",
+						"apiName": "后台-听书/声度添加和修改接口",
+						"apiURI": "CloudListenVoice/ListenVoiceAddOrUpdate",
 						"apiProtocol": 0,
-						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"\u8bf7\u6c42\u6210\u529f\",\n    \"data\":1\n}",
+						"apiSuccessMock": "{\n    \"code\": 100,\n    \"msg\": \"请求成功\",\n    \"data\":1\n}",
 						"apiFailureMock": "",
 						"apiRequestType": 0,
 						"apiStatus": 0,
@@ -208,21 +232,24 @@
 						"apiRequestRaw": "",
 						"apiUpdateTime": "2018-05-08 10:59:51"
 					},
-					"headerInfo": [{
+					"headerInfo": [
+						{
 							"headerName": "token",
 							"headerValue": "1545712fdc97469dbe0899213949f8d5",
 							"$$hashKey": "object:66"
 						}
 					],
-					"requestInfo": [{
+					"requestInfo": [
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u4e3b\u952e 0.\u6dfb\u52a0   \u5176\u4ed6\u5c31\u662f\u4fee\u6539",
+							"paramName": "主键 0.添加   其他就是修改",
 							"paramKey": "listenId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:212"
@@ -231,16 +258,18 @@
 							"default": 0,
 							"$$hashKey": "object:192",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u540d\u79f0",
+							"paramName": "名称",
 							"paramKey": "name",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u542c\u4e66",
+							"paramValueList": [
+								{
+									"value": "听书",
 									"valueDescription": "",
 									"$$hashKey": "object:234"
 								}
@@ -248,15 +277,17 @@
 							"default": 0,
 							"$$hashKey": "object:214",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u4e3b\u64ad\u4fe1\u606f  \u58f0\u5ea6\u4f200\uff0c\u542c\u4e66\u5176\u4ed6",
+							"paramName": "主播信息  声度传0，听书其他",
 							"paramKey": "anchorId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:322"
@@ -265,15 +296,17 @@
 							"default": 0,
 							"$$hashKey": "object:302",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u680f\u76eeId 2.\u542c\u4e66  3.\u58f0\u5ea6",
+							"paramName": "栏目Id 2.听书  3.声度",
 							"paramKey": "catId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "2",
 									"valueDescription": "",
 									"$$hashKey": "object:1690"
@@ -282,16 +315,18 @@
 							"default": 0,
 							"$$hashKey": "object:1670",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "1",
 							"paramType": "0",
-							"paramName": "\u7b80\u4ecb",
+							"paramName": "简介",
 							"paramKey": "summary",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u7b80\u4ecb",
+							"paramValueList": [
+								{
+									"value": "简介",
 									"valueDescription": "",
 									"$$hashKey": "object:3208"
 								}
@@ -299,16 +334,18 @@
 							"default": 0,
 							"$$hashKey": "object:1692",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "1",
 							"paramType": "0",
-							"paramName": "\u5c01\u9762\u56fe",
+							"paramName": "封面图",
 							"paramKey": "thumb",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u5c0f\u98ce.jpg",
+							"paramValueList": [
+								{
+									"value": "小风.jpg",
 									"valueDescription": "",
 									"$$hashKey": "object:3206"
 								}
@@ -316,16 +353,18 @@
 							"default": 0,
 							"$$hashKey": "object:1714",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u63cf\u8ff0",
+							"paramName": "描述",
 							"paramKey": "description",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u63cf\u8ff0",
+							"paramValueList": [
+								{
+									"value": "描述",
 									"valueDescription": "",
 									"$$hashKey": "object:3210"
 								}
@@ -333,15 +372,17 @@
 							"default": 0,
 							"$$hashKey": "object:1736",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "5",
-							"paramName": "\u4ef7\u683c",
+							"paramName": "价格",
 							"paramKey": "price",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:503"
@@ -350,15 +391,17 @@
 							"default": 0,
 							"$$hashKey": "object:483",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u6392\u5e8f\u503c",
+							"paramName": "排序值",
 							"paramKey": "sortNo",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:525"
@@ -367,15 +410,17 @@
 							"default": 0,
 							"$$hashKey": "object:505",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u53d1\u5e03\u72b6\u6001  0.\u53d1\u5e03   1.\u672a\u53d1\u5e03(\u9ed8\u8ba4)  2.\u5220\u9664",
+							"paramName": "发布状态  0.发布   1.未发布(默认)  2.删除",
 							"paramKey": "releaseStatus",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:547"
@@ -384,15 +429,17 @@
 							"default": 0,
 							"$$hashKey": "object:527",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u662f\u5426\u514d\u8d39 0\u6536\u8d39  1\u514d\u8d39",
+							"paramName": "是否免费 0收费  1免费",
 							"paramKey": "isFree",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:569"
@@ -401,15 +448,17 @@
 							"default": 0,
 							"$$hashKey": "object:549",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "0.\u65e0\u4fc3\u9500(\u9ed8\u8ba4)\u3010\u6b64\u7c7b\u578b\u4e0d\u9700\u8981\u8981\u5173\u8054\u4fc3\u9500\u8868\u3011  1.\u81ea\u5b9a\u4e49\u4f18\u60e0\u4ef7\u683c  2.\u9650\u514d",
+							"paramName": "0.无促销(默认)【此类型不需要要关联促销表】  1.自定义优惠价格  2.限免",
 							"paramKey": "promotionType",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:591"
@@ -418,15 +467,17 @@
 							"default": 0,
 							"$$hashKey": "object:571",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "5",
-							"paramName": "\u81ea\u5b9a\u4e49\u4ef7\u683c",
+							"paramName": "自定义价格",
 							"paramKey": "selfPrice",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:613"
@@ -435,15 +486,17 @@
 							"default": 0,
 							"$$hashKey": "object:593",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u5f00\u59cb\u65f6\u95f4",
+							"paramName": "开始时间",
 							"paramKey": "startTime",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "1504517340",
 									"valueDescription": "",
 									"$$hashKey": "object:635"
@@ -452,15 +505,17 @@
 							"default": 0,
 							"$$hashKey": "object:615",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u7ed3\u675f\u65f6\u95f4",
+							"paramName": "结束时间",
 							"paramKey": "endTime",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "1504517340",
 									"valueDescription": "",
 									"$$hashKey": "object:657"
@@ -469,15 +524,17 @@
 							"default": 0,
 							"$$hashKey": "object:637",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u8ba2\u9605\/\u8d2d\u4e70\u91cf",
+							"paramName": "订阅/购买量",
 							"paramKey": "orderNum",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:679"
@@ -486,15 +543,17 @@
 							"default": 0,
 							"$$hashKey": "object:659",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "3",
-							"paramName": "\u8bfb\u53d6Cloud_OrderCycle\u4e3b\u952e   \u5f53\u662f\u542c\u4e66\u65f6\u6b64\u503c\u4e3a0",
+							"paramName": "读取Cloud_OrderCycle主键   当是听书时此值为0",
 							"paramKey": "orderTime",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "0",
 									"valueDescription": "",
 									"$$hashKey": "object:701"
@@ -503,15 +562,17 @@
 							"default": 0,
 							"$$hashKey": "object:681",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u82f9\u679c\u5185\u8d2dID   \u58f0\u5ea6\u5185\u8d2dID  \u9488\u5bf9\u82f9\u679c\u5ba1\u6838",
+							"paramName": "苹果内购ID   声度内购ID  针对苹果审核",
 							"paramKey": "appleStoreId",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": "sssss",
 									"valueDescription": "",
 									"$$hashKey": "object:723"
@@ -520,16 +581,18 @@
 							"default": 0,
 							"$$hashKey": "object:703",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u63a8\u8350\u7406\u7531",
+							"paramName": "推荐理由",
 							"paramKey": "recommReason",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u63a8\u8350\u7406\u7531",
+							"paramValueList": [
+								{
+									"value": "推荐理由",
 									"valueDescription": "",
 									"$$hashKey": "object:745"
 								}
@@ -537,16 +600,18 @@
 							"default": 0,
 							"$$hashKey": "object:725",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u9002\u5b9c\u4eba\u7fa4",
+							"paramName": "适宜人群",
 							"paramKey": "fixPeople",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u9002\u5b9c\u4eba\u7fa4",
+							"paramValueList": [
+								{
+									"value": "适宜人群",
 									"valueDescription": "",
 									"$$hashKey": "object:767"
 								}
@@ -554,16 +619,18 @@
 							"default": 0,
 							"$$hashKey": "object:747",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u4f60\u5c06\u83b7\u5f97",
+							"paramName": "你将获得",
 							"paramKey": "youGet",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u4f60\u5c06\u83b7\u5f97",
+							"paramValueList": [
+								{
+									"value": "你将获得",
 									"valueDescription": "",
 									"$$hashKey": "object:789"
 								}
@@ -571,16 +638,18 @@
 							"default": 0,
 							"$$hashKey": "object:769",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u8d2d\u4e70\u987b\u77e5",
+							"paramName": "购买须知",
 							"paramKey": "purchaseNotes",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u8d2d\u4e70\u987b\u77e5",
+							"paramValueList": [
+								{
+									"value": "购买须知",
 									"valueDescription": "",
 									"$$hashKey": "object:811"
 								}
@@ -588,16 +657,18 @@
 							"default": 0,
 							"$$hashKey": "object:791",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "1",
 							"paramType": "0",
-							"paramName": "\u56fe\u4e66\u4f5c\u8005",
+							"paramName": "图书作者",
 							"paramKey": "bookAuthor",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u56fe\u4e66\u4f5c\u8005",
+							"paramValueList": [
+								{
+									"value": "图书作者",
 									"valueDescription": "",
 									"$$hashKey": "object:833"
 								}
@@ -605,16 +676,18 @@
 							"default": 0,
 							"$$hashKey": "object:813",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "1",
 							"paramType": "0",
-							"paramName": "\u51fa\u7248\u65b9",
+							"paramName": "出版方",
 							"paramKey": "publishSide",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u51fa\u7248\u65b9",
+							"paramValueList": [
+								{
+									"value": "出版方",
 									"valueDescription": "",
 									"$$hashKey": "object:855"
 								}
@@ -622,16 +695,18 @@
 							"default": 0,
 							"$$hashKey": "object:835",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "1",
 							"paramType": "0",
-							"paramName": "\u51fa\u7248\u65f6\u95f4",
+							"paramName": "出版时间",
 							"paramKey": "publishTime",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u51fa\u7248\u65f6\u95f4",
+							"paramValueList": [
+								{
+									"value": "出版时间",
 									"valueDescription": "",
 									"$$hashKey": "object:877"
 								}
@@ -639,16 +714,18 @@
 							"default": 0,
 							"$$hashKey": "object:857",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u56fe\u4e66\u7f16\u7801",
+							"paramName": "图书编码",
 							"paramKey": "bookCode",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u56fe\u4e66\u7f16\u7801",
+							"paramValueList": [
+								{
+									"value": "图书编码",
 									"valueDescription": "",
 									"$$hashKey": "object:899"
 								}
@@ -656,16 +733,18 @@
 							"default": 0,
 							"$$hashKey": "object:879",
 							"moreParam": true
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramType": "0",
-							"paramName": "\u56fe\u4e66\u5b57\u6570",
+							"paramName": "图书字数",
 							"paramKey": "bookCount",
 							"paramValue": "",
 							"paramLimit": "",
 							"paramNote": "",
-							"paramValueList": [{
-									"value": "\u56fe\u4e66\u5b57\u6570",
+							"paramValueList": [
+								{
+									"value": "图书字数",
 									"valueDescription": "",
 									"$$hashKey": "object:921"
 								}
@@ -675,33 +754,39 @@
 							"moreParam": true
 						}
 					],
-					"resultInfo": [{
+					"resultInfo": [
+						{
 							"paramNotNull": "0",
 							"paramName": "",
 							"paramKey": "code",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": 100,
 									"valueDescription": "",
 									"$$hashKey": "object:48130"
 								}
 							],
 							"$$hashKey": "object:48121"
-						}, {
+						},
+						{
 							"paramNotNull": "0",
 							"paramName": "",
 							"paramKey": "msg",
-							"paramValueList": [{
-									"value": "\u8bf7\u6c42\u6210\u529f",
+							"paramValueList": [
+								{
+									"value": "请求成功",
 									"valueDescription": "",
 									"$$hashKey": "object:48132"
 								}
 							],
 							"$$hashKey": "object:48122"
-						}, {
+						},
+						{
 							"paramNotNull": "0",
-							"paramName": "\u66f4\u65b0\u7684\u5bf9\u8c61ID\uff0c0\u8868\u793a\u66f4\u65b0\u5931\u8d25",
+							"paramName": "更新的对象ID，0表示更新失败",
 							"paramKey": "data",
-							"paramValueList": [{
+							"paramValueList": [
+								{
 									"value": 1,
 									"valueDescription": "",
 									"$$hashKey": "object:48134"
@@ -712,6 +797,6 @@
 					]
 				}
 			]
-		}
+		},
 	]
 }
