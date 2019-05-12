@@ -1,13 +1,10 @@
-﻿using System;
+﻿using Spire.Doc;
+using Spire.Doc.Documents;
+using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using System.Text;
 using System.Text.RegularExpressions;
-using Spire.Doc;
-using Spire.Doc.Documents;
-using Spire.Doc.Fields;
-using Spire.Doc.Interface;
 
 namespace eolinkerToWord
 {
@@ -17,15 +14,35 @@ namespace eolinkerToWord
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            //地区数据
-            string jsonStr = File.ReadAllText("./doc/eoapi.json");
+            string jsonStr = "";
+            try
+            {
+                //导出数据
+                jsonStr = File.ReadAllText("./doc/eoapi.json");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            Document document = new Document();
+            try
+            {
+                //载入Word文档
+                document = new Document("./doc/API模板.docx");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
             var model = Newtonsoft.Json.JsonConvert.DeserializeObject<eoapi>(jsonStr);
 
+#if debug
+            Console.WriteLine("--------------------");
+#endif
 
             #region 将数据插入文档
 
-            //载入Word文档
-            Document document = new Document("./doc/API模板.docx");
 
             model.ApiGroupList.ForEach(u =>
             {
@@ -52,7 +69,7 @@ namespace eolinkerToWord
                     tableNew.TableFormat.Borders.LineWidth = 1.0F;
                     tableNew.TableFormat.Borders.BorderType = BorderStyle.Hairline;
                     tableNew.TableFormat.Borders.Color = Color.Black;
-                    
+
                     //向表格中添加数据
 
                     //请求类型
